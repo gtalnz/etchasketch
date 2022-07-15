@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+}
+
+.grid {
+	display: -ms-grid;
+	display: grid;
+	grid: repeat(4, 1fr) / repeat(4, 1fr);
+	max-height: 100vh;
+	aspect-ratio: 1/1;
+	margin: auto auto;
+}
